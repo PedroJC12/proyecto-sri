@@ -1,0 +1,123 @@
+# ============================================================
+# Configuración de MkDocs
+# Proyecto: Seguridad y protección del dispositivo
+# ============================================================
+
+site_name: Seguridad y protección del dispositivo
+site_description: Guía práctica para proteger tu ordenador y tu móvil, explicada paso a paso para personas sin conocimientos técnicos.
+site_author: Pedro Jesus Cruz y Alejandro Rodriguezs 
+site_url: https://PedroJC12.github.io/proyecto-sri/  
+repo_url: https://github.com/PedroJC12/proyeto-sri
+repo_name: proyecto-sri
+copyright: Copyright &copy; 2026 Pedro Jesus Cruz y Alejandro Rodriguez
+
+# ------------------------------------------------------------
+# Tema
+# ------------------------------------------------------------
+theme:
+  name: material
+  language: es
+  logo: assets/img/escudo.svg
+  favicon: assets/img/escudo.svg
+  palette:
+    # Modo claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo oscuro
+    # Modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo claro
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+
+# ------------------------------------------------------------
+# Estilos propios
+# ------------------------------------------------------------
+extra_css:
+  - stylesheets/extra.css
+
+# ------------------------------------------------------------
+# Navegación (usa los nombres de archivo del idioma por defecto: español)
+# ------------------------------------------------------------
+nav:
+  - Inicio: index.md
+  - Introducción: introduccion.md
+  - Antes de empezar: requisitos.md
+  - Guía paso a paso:
+      - Contraseñas: contrasenas.md
+      - Actualizaciones: actualizaciones.md
+      - Antivirus: antivirus.md
+      - Copias de seguridad: copias-seguridad.md
+      - Phishing y estafas: phishing.md
+      - Wi-Fi seguro: wifi.md
+  - Conclusiones: conclusiones.md
+
+# ------------------------------------------------------------
+# Plugins: buscador + documentación bilingüe (ES / EN)
+# ------------------------------------------------------------
+plugins:
+  - search:
+      lang:
+        - es
+        - en
+  - i18n:
+      docs_structure: suffix       # index.md = español, index.en.md = inglés
+      languages:
+        - locale: es
+          default: true
+          name: Español
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: Device security and protection
+          nav_translations:
+            Inicio: Home
+            Introducción: Introduction
+            Antes de empezar: Before you start
+            Guía paso a paso: Step-by-step guide
+            Contraseñas: Passwords
+            Actualizaciones: Updates
+            Antivirus: Antivirus
+            Copias de seguridad: Backups
+            Phishing y estafas: Phishing and scams
+            Wi-Fi seguro: Secure Wi-Fi
+            Conclusiones: Conclusions
+
+# ------------------------------------------------------------
+# Extensiones de Markdown
+# ------------------------------------------------------------
+markdown_extensions:
+  - admonition                 # cuadros de aviso (!!! note, !!! warning...)
+  - pymdownx.details           # bloques desplegables (??? question)
+  - pymdownx.superfences       # bloques de código avanzados
+  - pymdownx.tabbed:           # pestañas (Windows / Mac)
+      alternate_style: true
+  - pymdownx.highlight:        # resaltado de código
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tasklist:         # listas de tareas con casillas
+      custom_checkbox: true
+  - pymdownx.emoji:            # iconos y emojis
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list                  # clases y atributos en imágenes / botones
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true

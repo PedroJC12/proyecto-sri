@@ -1,0 +1,11 @@
+# Carpeta generada por MkDocs (no se sube al repositorio)
+site/
+
+# Entorno virtual de Python
+venv/
+.venv/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+__pycache__/
