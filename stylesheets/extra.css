@@ -1,0 +1,29 @@
+/* Personalización mínima del sitio */
+
+/* Imágenes centradas y con bordes redondeados */
+.md-typeset img {
+  border-radius: 12px;
+}
+
+/* Bloque de bienvenida de la portada */
+.portada {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(63, 81, 181, 0.12), rgba(0, 150, 136, 0.12));
+}
+
+.portada h1 {
+  margin-top: 0;
+}
+
+/* Tarjetas de la portada */
+.md-typeset .grid.cards > ul > li {
+  border-radius: 12px;
+}
+
+/* Botones más redondeados */
+.md-typeset .md-button {
+  border-radius: 999px;
+}

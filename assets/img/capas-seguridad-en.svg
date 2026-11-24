@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-label="Layers of device security">
+  <rect width="640" height="400" rx="16" fill="#f4f6fb"/>
+  <text x="320" y="36" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#283593">The protection layers of your device</text>
+
+  <circle cx="200" cy="225" r="150" fill="#c5cae9"/>
+  <circle cx="200" cy="245" r="115" fill="#9fa8da"/>
+  <circle cx="200" cy="265" r="80" fill="#7986cb"/>
+  <circle cx="200" cy="285" r="45" fill="#3f51b5"/>
+
+  <text x="200" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#1a237e">Habits and common sense</text>
+  <text x="200" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#1a237e">Antivirus and updates</text>
+  <text x="200" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">Passwords</text>
+  <text x="200" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#ffffff">Your data</text>
+
+  <g font-family="Arial, sans-serif" font-size="15" fill="#263238">
+    <rect x="390" y="80" width="220" height="56" rx="10" fill="#ffffff" stroke="#3f51b5"/>
+    <text x="400" y="104" font-weight="bold">1. Strong passwords</text>
+    <text x="400" y="124" font-size="13">The key to your digital home</text>
+
+    <rect x="390" y="148" width="220" height="56" rx="10" fill="#ffffff" stroke="#3f51b5"/>
+    <text x="400" y="172" font-weight="bold">2. Always update</text>
+    <text x="400" y="192" font-size="13">Close the known holes</text>
+
+    <rect x="390" y="216" width="220" height="56" rx="10" fill="#ffffff" stroke="#3f51b5"/>
+    <text x="400" y="240" font-weight="bold">3. Active antivirus</text>
+    <text x="400" y="260" font-size="13">The security guard</text>
+
+    <rect x="390" y="284" width="220" height="56" rx="10" fill="#ffffff" stroke="#009688"/>
+    <text x="400" y="308" font-weight="bold">4. Backups</text>
+    <text x="400" y="328" font-size="13">Plan B if something fails</text>
+
+    <rect x="390" y="344" width="220" height="40" rx="10" fill="#ffffff" stroke="#009688"/>
+    <text x="400" y="369" font-weight="bold">5. Beware of scams</text>
+  </g>
+</svg>
