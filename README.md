@@ -4,8 +4,7 @@ Guía práctica, paso a paso y bilingüe (español / inglés), para que cualquie
 
 Proyecto de documentación técnica realizado con **MkDocs (tema Material)** y publicado con **GitHub Pages**.
 
-- 🌐 Sitio web: _pegar aquí el enlace de GitHub Pages_
-- 👥 Autores: NOMBRE1 y NOMBRE2
+- 👥 Autores: Pedro Jesus Cruz y Alejandro Rodriguez
 
 ## Contenido
 
