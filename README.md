@@ -22,6 +22,7 @@ mkdocs serve
 ```
 
 Después abre <http://127.0.0.1:8000> en el navegador.
+Enlace directo a página web https://pedrojc12.github.io/proyecto-sri/ . 
 
 ## Cómo publicar los cambios
 
